@@ -466,7 +466,7 @@ with tabs[4]:
         f"({'selisih kecil → kinerja relatif merata antar kelas' if gap < .03 else 'selisih besar → kelas kecil tertinggal'}). "
         f"Kelas terbaik: **{f1s.idxmax()}** (F1 {f1s.max():.2f}); terlemah: **{f1s.idxmin()}** "
         f"(F1 {f1s.min():.2f}). "
-        + (f"Kelas dengan F1 < 0.70: {', '.join(low.index)} — umumnya karena contoh uji sangat sedikit "
+        + (f"Kelas dengan F1 < 0.70: {', '.join(low.index)} umumnya karena contoh uji sangat sedikit "
            f"(support {int(low['support'].min())}–{int(low['support'].max())}) dan "
            f"penampilan visual yang mirip kelas lain. " if len(low) else "")
         + f"Recall macro ({m['recall']:.2f}) lebih tinggi dari precision macro ({m['precision']:.2f}): "
