@@ -417,7 +417,7 @@ with tabs[3]:
             io = classes.index("other")
             leak = int(cm[io].sum() - cm[io, io])
             txt += (f"Kelas *other* (heterogen: berisi aneka objek laut) sering salah terbaca "
-                    f"sebagai kelas spesifik — **{leak} dari {int(cm[io].sum())}** gambar *other* "
+                    f"sebagai kelas spesifik **{leak} dari {int(cm[io].sum())}** gambar *other* "
                     f"salah prediksi. Ini wajar karena batas visual antara *other* dan organisme "
                     f"target tidak tegas, ditambah label *other* sebagian berasal dari ambang "
                     f"confidence CLIP.")
