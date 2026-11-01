@@ -1,0 +1,26 @@
+{
+  "img_size": [
+    160,
+    160
+  ],
+  "batch_size": 32,
+  "epochs_phase1": 15,
+  "epochs_phase2": 10,
+  "epochs_run_phase1": 15,
+  "epochs_run_total": 24,
+  "optimizer_phase1": "Adam (lr=1e-3)",
+  "optimizer_phase2": "Adam (lr=1e-5)",
+  "loss": "categorical_crossentropy",
+  "base_model": "MobileNetV2 (ImageNet)",
+  "hidden_dense": 128,
+  "dropout": 0.3,
+  "fine_tune_layers": 30,
+  "augmentation": "flip horizontal, rotasi 0.08, zoom 0.15, shift 0.1",
+  "class_weight": true,
+  "test_size": 0.2,
+  "seed": 42,
+  "clip_model": "openai/clip-vit-base-patch32",
+  "clip_conf_threshold": 0.45,
+  "n_params": 2423242,
+  "train_minutes": 2.8
+}
