@@ -1,0 +1,11 @@
+label,train,validation,test,total
+other,320,40,40,400
+fish,210,26,27,263
+seal,54,7,7,68
+coral,50,6,6,62
+crab,26,4,3,33
+shark,50,6,6,62
+turtle,30,4,4,38
+octopus,27,3,3,33
+starfish,27,3,4,34
+jellyfish,26,4,3,33
