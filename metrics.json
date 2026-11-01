@@ -1,0 +1,75 @@
+{
+  "accuracy": 0.8058252427184466,
+  "macro": {
+    "precision": 0.8011607142857142,
+    "recall": 0.8693518518518518,
+    "f1": 0.8178671328671328
+  },
+  "weighted": {
+    "precision": 0.8270110957004162,
+    "recall": 0.8058252427184466,
+    "f1": 0.8074659967863851
+  },
+  "per_class": {
+    "other": {
+      "precision": 0.84375,
+      "recall": 0.675,
+      "f1": 0.75,
+      "support": 40
+    },
+    "fish": {
+      "precision": 0.8214285714285714,
+      "recall": 0.8518518518518519,
+      "f1": 0.8363636363636363,
+      "support": 27
+    },
+    "seal": {
+      "precision": 0.875,
+      "recall": 1.0,
+      "f1": 0.9333333333333333,
+      "support": 7
+    },
+    "coral": {
+      "precision": 0.7142857142857143,
+      "recall": 0.8333333333333334,
+      "f1": 0.7692307692307693,
+      "support": 6
+    },
+    "crab": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "support": 3
+    },
+    "shark": {
+      "precision": 0.8571428571428571,
+      "recall": 1.0,
+      "f1": 0.9230769230769231,
+      "support": 6
+    },
+    "turtle": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 4
+    },
+    "octopus": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 3
+    },
+    "starfish": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 4
+    },
+    "jellyfish": {
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "f1": 0.5,
+      "support": 3
+    }
+  }
+}
