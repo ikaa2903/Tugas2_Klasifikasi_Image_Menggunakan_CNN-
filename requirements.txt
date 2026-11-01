@@ -1,0 +1,18 @@
+# Dashboard Streamlit
+streamlit
+matplotlib
+numpy
+pandas
+Pillow
+
+# Pelatihan dan evaluasi CNN
+tensorflow
+scikit-learn
+tqdm
+
+# Pelabelan otomatis gambar menggunakan CLIP
+torch
+transformers>=4.40,<5
+
+# Sertifikat SSL untuk unduhan model/dataset
+certifi
