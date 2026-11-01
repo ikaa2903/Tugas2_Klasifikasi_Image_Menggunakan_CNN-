@@ -152,7 +152,7 @@ def label(c: str) -> str:
 # ----------------------------------------------------------------------------
 # Sidebar
 # ----------------------------------------------------------------------------
-default_out = os.environ.get("OUT_DIR", str(Path(__file__).parent / "output"))
+default_out = os.environ.get("OUT_DIR", str(Path(__file__).parent))
 with st.sidebar:
     st.divider()
     st.markdown(
